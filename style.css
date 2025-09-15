@@ -356,3 +356,101 @@ footer a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* PROJETOS EXCEL COMO LISTA DE LINKS SIMPLES */
+.excel-list p {
+  margin: 8px 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.excel-list a {
+  color: #9b6ff3;
+  text-decoration: none;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.excel-list a:hover {
+  color: #d6b3ff;
+  text-shadow: 0 0 10px #9b6ff3;
+}
+
+/* COMENTADO: estilo antigo de cartões (se quiser, delete) */
+/*
+.excel-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.excel-item {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #9b6ff3;
+  box-shadow: 0 0 10px #6f42c1;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.excel-item:hover {
+ 
+/* ===== CARROSSEL DE DESIGN ===== */
+.carousel-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.carousel-title {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.carousel {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid #9b6ff3;
+}
+
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.carousel-images img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(155, 111, 243, 0.7);
+  border: none;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+  transition: background 0.3s;
+}
+
+.carousel-btn:hover {
+  background-color: rgba(155, 111, 243, 1);
+}
+
+.carousel-btn.prev {
+  left: 10px;
+}
+
+.carousel-btn.next {
+  right: 10px;
+}
+
