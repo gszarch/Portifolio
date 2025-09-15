@@ -412,8 +412,11 @@ footer a:hover {
   overflow: hidden;
   margin: 0 auto;
   border-radius: 10px;
-  border: 1px solid #9b6ff3;
+
+  /* Remova ou comente esta linha abaixo */
+  /* border: 1px solid #9b6ff3; */
 }
+
 
 .carousel-images {
   display: flex;
@@ -454,3 +457,6 @@ footer a:hover {
   right: 10px;
 }
 
+.carousel-btn {
+  display: none;
+}
